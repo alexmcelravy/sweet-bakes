@@ -1,0 +1,33 @@
+/* Recipes page styles */
+* {
+    font-family: 'Comfortaa', cursive;
+}
+table {
+    text-align: center;
+}
+tr {
+    color: #890B56;
+    border: 1px solid  #890B56;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+td {
+    width: 25%;
+}
+td.align-top{
+    vertical-align: top;
+}
+
+td.align-bottom{
+    vertical-align: bottom;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.header-row{
+    font-size: 2em;
+    border-bottom: 1px solid #890B56;
+    padding-top: 1em;
+}

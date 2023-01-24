@@ -1,0 +1,87 @@
+/* recipe card page styles */
+* {
+    font-family: 'Comfortaa', cursive;
+}
+li {
+    padding-bottom: 1rem;
+}
+
+.ingredients-col {
+    background-color: #890B56;
+    color: #FFE3F4;
+    border-radius: 25px;
+    height: fit-content;
+}
+
+.ingredients-col ul {
+    padding-left: 0;
+}
+
+.header-row{
+    color: #890B56;
+}
+
+.right {
+    color: #890B56;
+}
+
+a {
+    color: #890B56;
+}
+/* mobile styles */
+@media (min-width:320px){ 
+    img {
+        width: 100%;
+    }
+    .col {
+        padding: 1em;
+        
+    }
+    .ingredients-col{
+        padding: 1em 3em;
+    }
+    .left {
+        width: auto;
+    }
+
+    .right{
+        width: auto;
+    }
+}
+/* tablet styles */
+@media (min-width:480px){ 
+
+}
+
+/* desktop styles */
+@media (min-width: 768px){
+    img {
+        width: 80%;
+    }
+    .row {
+        display: flex;
+    }
+    .header-row .col {
+        text-align: center;
+        margin: auto;
+    }
+    .col {
+        float: left;
+        padding: 1em 2em;
+    }
+    
+    .left {
+        width: 40%;
+    }
+    
+    .right {
+        width: 60%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

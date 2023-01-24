@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <header>
+        <div class="header-nav">
+            <h1>Sweet Baking<span><img src="https://img.icons8.com/ios-glyphs/90/890b56/kawaii-bread-1--v1.png" alt="Smiling bread" class="header-icon"></span></h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="main">
+        <h3>Do you have a recipe reccommendation? Questions about our site? Contact us below!</h3>
+        <div class="form-wrapper">
+            <form action="mailto:alexis.mcelravy@acd.ccac.edu"  method="post" enctype="text/plain">
+                <div class="fname-input">
+                    <label for="FirstName">First Name:</label>
+                    <input type="text" id="FirstName" name="FirstName"> 
+                </div>
+                <div class="lname-input">
+                    <label for="LastName">Last Name:</label>
+                    <input type="text" id="LastName" name="LastName"> 
+                </div>
+                <div class="email-input">
+                    <label for="Email">Email:</label>
+                    <input type="email" id="Email" name="Email">
+                </div>
+                <div class="discover-input">
+                    <label for="Discover">How did you find our page?</label>
+                    <select id="Discover" name="Discover">
+                        <option value="Friend">Friend</option>
+                        <option value="Search">Search Engine</option>
+                        <option value="SocialMedia">Social Media</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <label for="Comments">Comments:</label>
+                <input type="text" id="Comments" name="Comments" size="50">
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

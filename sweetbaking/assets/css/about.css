@@ -1,0 +1,58 @@
+/* about page styles */
+* {
+    font-family: 'Comfortaa', cursive;
+    color: #890B56;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* mobile styles */
+@media (min-width:320px){ 
+    img {
+        width: 65%;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .row{
+        text-align: center;
+    }
+}
+/* tablet styles */
+@media (min-width:480px){ 
+
+}
+
+/* desktop styles */
+@media (min-width: 768px){
+    .main{
+        margin: auto;
+        width: 60%;
+    }
+
+    .desktop{
+        display: inline;
+    }
+
+    .float-left{
+        float: left;
+    }
+
+    img.float-left{
+        margin: 1em;
+        width: 30%;
+    }
+
+    .row {
+        display: inline-block;
+    }
+
+    .row img {
+        width: 32%;
+    }
+
+}

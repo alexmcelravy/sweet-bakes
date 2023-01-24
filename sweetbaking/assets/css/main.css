@@ -1,0 +1,91 @@
+/* styles that apply to all pages */
+body {
+    background-color: #FFE3F4;
+}
+
+/* mobile and tablet styles */
+@media (min-width:320px){ 
+    /* header styles */
+    span img.header-icon {
+        width: 2.5rem;
+        float: unset;
+        padding-left: 2%;
+        vertical-align: bottom;  
+    }
+
+    .header-nav{
+        margin: 2em 1em;
+    }
+
+    .header-nav h1 {
+        text-align: center;
+        color: #890B56;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    nav {
+        text-align: center;
+    }
+
+    nav ul {
+        padding-left: 0;
+    }
+    
+    nav li {
+        list-style-type: none;
+        font-family: 'Comfortaa', cursive;
+        background-color: #890B56;
+        font-weight: 700;
+        margin: 1em;
+        border-radius: 25px;
+        padding: 1em 0.5em;
+        font-size: 1em;
+    }
+    
+    nav li a {
+        color: #FFE3F4;
+        text-decoration: none;
+    }
+}
+
+/* desktop styles */
+@media (min-width: 768px){
+    /* header styles */
+    span img.header-icon {
+        display: inline;
+        width: 2rem;
+        padding-left: 1%; 
+    }
+
+    .header-nav h1 {
+        font-size: 1.6em;
+        display: inline;
+    }
+    
+    nav {
+        float: right;
+        display: inline;
+    }
+    
+    nav ul {
+        display: inline;
+    }
+    
+    nav li {
+        background-color: transparent;
+        display: inline;
+        padding: 0.65em;
+        font-size: 1.5em;
+        margin: 0;
+    }
+    
+    nav li a {
+        color: #890B56;
+    }
+    
+    nav li a:hover {
+        font-style: italic;
+        color: #3C5302;
+    }
+}
+
